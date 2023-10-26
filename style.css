@@ -93,4 +93,21 @@ nav a:hover {
 
 .banner_options {
   height: 210px;
+  display: flex;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+  flex: 1;
+}
+
+.banner1 {
+  background-color: red;
+}
+.banner2 {
+  background-color: yellow;
+}
+.banner3 {
+  background-color: green;
 }
