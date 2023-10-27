@@ -114,7 +114,9 @@ nav a:hover {
   background-color: #0079c7;
 }
 .banner3 {
+  display: flex;
   background-color: #2b4c99;
+  display: flex;
 }
 
 .banner_title {
@@ -129,6 +131,63 @@ nav a:hover {
 
 .banner_options a {
   display: inline-block;
-  border:1px solid white;
+  border: 1px solid white;
   padding: 5px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.banner3 {
+  background-color: #2b4c99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.week-main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+}
+.week {
+  font-size: 13px;
+  font-weight: bold;
+}
+.week-hours {
+  font-size: 13px;
+  font-weight: bold;
+}
+.Saturday-main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+}
+.Saturday {
+  font-size: 13px;
+  font-weight: bold;
+}
+.Saturday-hours {
+  font-size: 13px;
+  font-weight: bold;
+}
+.sunday-main {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #aaa;
+}
+.sunday {
+  font-size: 13px;
+  font-weight: bold;
+}
+.sunday-hours {
+  font-size: 13px;
+  font-weight: bold;
 }
