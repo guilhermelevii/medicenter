@@ -137,7 +137,14 @@ nav a:hover {
   font-size: 15px;
   text-decoration: none;
 }
+/* exercicio do curso do opening hours, 
 
+ coloquei o banner 3 display flex, flex-direction:column,jusstify-content:center;
+ 
+as classes MAIN, 
+display:flex;
+justify-content:space-between;
+*/
 .banner3 {
   background-color: #2b4c99;
   display: flex;
