@@ -100,14 +100,15 @@ nav a:hover {
 .banner2,
 .banner3 {
   flex: 1;
+  color: white;
 }
 
 .banner1 {
-  background-color: red;
+  background-color: #39aae1;
 }
 .banner2 {
-  background-color: yellow;
+  background-color: #0079c7;
 }
 .banner3 {
-  background-color: green;
+  background-color: #2b4c99;
 }
