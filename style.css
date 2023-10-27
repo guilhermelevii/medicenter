@@ -137,13 +137,14 @@ nav a:hover {
   font-size: 15px;
   text-decoration: none;
 }
-/* exercicio do curso do opening hours, 
+/* exercicio do curso - opening hours, 
 
- coloquei o banner 3 display flex, flex-direction:column,jusstify-content:center;
+coloquei o banner 3 display flex, flex-direction:column,jusstify-content:center;
  
 as classes MAIN, 
 display:flex;
 justify-content:space-between;
+perfeito a execução do exercicio.
 */
 .banner3 {
   background-color: #2b4c99;
