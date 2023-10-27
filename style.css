@@ -1,4 +1,7 @@
 @charset "UTF-8";
+* {
+  font-family: arial;
+}
 body {
   margin: 0px;
   padding: 0px;
@@ -101,6 +104,7 @@ nav a:hover {
 .banner3 {
   flex: 1;
   color: white;
+  padding: 20px;
 }
 
 .banner1 {
@@ -111,4 +115,20 @@ nav a:hover {
 }
 .banner3 {
   background-color: #2b4c99;
+}
+
+.banner_title {
+  font-size: 22px;
+}
+
+.banner_desc {
+  font-size: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner_options a {
+  display: inline-block;
+  border:1px solid white;
+  padding: 5px;
 }
