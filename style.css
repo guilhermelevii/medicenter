@@ -240,7 +240,7 @@ article .news_data {
   display: flex;
 }
 
-article .news_posted_at {
+article .news_posted_at { 
   background-color: #2b4c99;
   color: white;
   font-size: 12px;
