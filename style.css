@@ -205,31 +205,31 @@ perfeito a execução do exercicio.
   font-weight: bold;
 }
 
-#geral{
+#geral {
   display: flex;
   justify-content: center;
 }
 
-#geral section{
+#geral section {
   flex: 2;
 }
 
-#geral aside{
+#geral aside {
   flex: 1;
 }
 
-.widget_title{
-  margin-top:30px;
-  margin-bottom:20px;
+.widget_title {
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
-.wigted_title_text{
+.wigted_title_text {
   color: black;
   font-size: 21px;
   font-weight: bold;
 }
 
-.wigted_title_bar{
+.wigted_title_bar {
   width: 50px;
   height: 2px;
   background-color: #36a9e1;
