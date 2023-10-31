@@ -203,3 +203,21 @@ perfeito a execução do exercicio.
   font-size: 13px;
   font-weight: bold;
 }
+
+#geral{
+  display: flex;
+  justify-content: center;
+}
+
+#geral section{
+  flex: 2;
+}
+
+#geral aside{
+  flex: 1;
+}
+
+.wigted_title{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
