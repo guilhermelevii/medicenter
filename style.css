@@ -5,6 +5,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  padding-bottom: 300px;
 }
 
 header {
@@ -217,7 +218,20 @@ perfeito a execução do exercicio.
   flex: 1;
 }
 
-.wigted_title{
-  margin-top: 30px;
-  margin-bottom: 20px;
+.widget_title{
+  margin-top:30px;
+  margin-bottom:20px;
+}
+
+.wigted_title_text{
+  color: black;
+  font-size: 21px;
+  font-weight: bold;
+}
+
+.wigted_title_bar{
+  width: 50px;
+  height: 2px;
+  background-color: #36a9e1;
+  margin-top: 10px;
 }
