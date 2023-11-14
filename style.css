@@ -236,6 +236,10 @@ perfeito a execução do exercicio.
   margin-top: 10px;
 }
 
+article a {
+  text-decoration: none;
+}
+
 article .news_data {
   display: flex;
 }
