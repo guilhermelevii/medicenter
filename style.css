@@ -236,13 +236,13 @@ perfeito a execução do exercicio.
   margin-top: 10px;
 }
 
-.flex{
-  display:flex;
+.flex {
+  display: flex;
   flex-wrap: wrap;
 }
 
-article{
-  flex:1;
+article {
+  flex: 1;
   min-width: 300px;
   margin-right: 20px;
 }
@@ -291,4 +291,34 @@ article .news_resume {
   color: #5c5c5c;
   line-height: 20px; /*espaçamento entre as linhas dos texto*/
   margin-bottom: 30px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_menu{
+  display: flex;
+  flex:1
+}
+
+.fm_1, .fm_2,.fm_3{
+  flex:1;
+  color:white;
+  padding: 20px;
+}
+
+.fm_1{
+  background-color: #36a9e1;
+}
+
+.fm_2{
+background-color: #0079c7;
+}
+
+.fm_3{
+background-color: #2b4c99;
+
 }
