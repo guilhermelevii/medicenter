@@ -236,6 +236,17 @@ perfeito a execução do exercicio.
   margin-top: 10px;
 }
 
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+article{
+  flex:1;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
 article a {
   text-decoration: none;
 }
@@ -279,4 +290,5 @@ article .news_resume {
   font-size: 14px;
   color: #5c5c5c;
   line-height: 20px; /*espaçamento entre as linhas dos texto*/
+  margin-bottom: 30px;
 }
