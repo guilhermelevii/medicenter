@@ -299,26 +299,27 @@ footer {
   justify-content: center;
 }
 
-.footer_menu{
+.footer_menu {
   display: flex;
-  flex:1
+  flex: 1;
 }
 
-.fm_1, .fm_2,.fm_3{
-  flex:1;
-  color:white;
+.fm_1,
+.fm_2,
+.fm_3 {
+  flex: 1;
+  color: white;
   padding: 20px;
 }
 
-.fm_1{
+.fm_1 {
   background-color: #36a9e1;
 }
 
-.fm_2{
-background-color: #0079c7;
+.fm_2 {
+  background-color: #0079c7;
 }
 
-.fm_3{
-background-color: #2b4c99;
-
+.fm_3 {
+  background-color: #2b4c99;
 }
