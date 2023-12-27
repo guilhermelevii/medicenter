@@ -323,3 +323,56 @@ footer {
 .fm_3 {
   background-color: #2b4c99;
 }
+
+.widget_box1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.widget_body1 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+  background-color: #39aae1;
+  width: 100px;
+}
+
+.widget_box2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.widget_body2 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+  background-color: #39aae1;
+  width: 100px;
+}
+
+.widget_box3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.widget_body3 {
+  margin-right: 15px;
+  margin-bottom: 15px;
+  height: 100px;
+  background-color: #39aae1;
+  width: 100px;
+}
+
+.widget_body_contact_desc {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.widget_body_contact_desc div {
+  margin-top: 12px;
+  border-bottom: 1px solid #bdb7b7cc;
+}
+
+.widget_body_contact_desc span {
+  font-weight: bold;
+}
