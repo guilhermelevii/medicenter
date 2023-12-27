@@ -242,7 +242,7 @@ perfeito a execução do exercicio.
 }
 
 article {
-  flex: 1;
+  flex: 1; /* fla para o pragama que vai ser tudo divido igual tudo no mesmo padrão. */
   min-width: 300px;
   margin-right: 20px;
 }
