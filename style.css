@@ -412,4 +412,25 @@ footer .wigted_title_text {
   text-decoration: none;
 }
 
+.medicenter{
+  margin-top: 30px;
+}
+
+.medicenter p{
+  color: #5c5c5c;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex: 1;
+}
+
+footer .b{
+  margin-top: 30px;
+}
+footer .c,.d,.e{
+  display: flex;  
+  justify-content: space-between;  
+}
 
