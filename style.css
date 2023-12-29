@@ -478,3 +478,23 @@ span {
   font-size: 11px;
   color: #39aae1;
 }
+
+.widget_body_bill {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.widget_body_bill a {
+
+  text-decoration: none;
+  color: #5c5c5c;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.latest_tweets p {
+  margin-right: 7px;
+  margin-top: 0;
+}
