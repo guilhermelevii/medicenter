@@ -508,6 +508,10 @@ span {
     padding-left: 20px;
   }
 
+  #banner{
+    background-position: left; /* DIMINUIR A FOTO DO BANNER E ADAPTAR ELA AQUI.*/
+  }
+
 
   .banner_headline {
     padding: 20px;
@@ -536,10 +540,12 @@ span {
   #geral section {
     padding: 20px;
     margin-top: 60px;
+    margin-bottom: -60px;
 
   }
 
   #geral aside {
+    
     padding: 20px;
   }
 
