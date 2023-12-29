@@ -500,7 +500,10 @@ span {
 }
 
 /* media query - responsividade */
-
+/*CELULAR 
+/* Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px)
+*/
 @media (max-width:600px) {
 
   .logo {
@@ -508,8 +511,9 @@ span {
     padding-left: 20px;
   }
 
-  #banner{
-    background-position: left; /* DIMINUIR A FOTO DO BANNER E ADAPTAR ELA AQUI.*/
+  #banner {
+    background-position: left;
+    /* DIMINUIR A FOTO DO BANNER E ADAPTAR ELA AQUI.*/
   }
 
 
@@ -545,7 +549,7 @@ span {
   }
 
   #geral aside {
-    
+
     padding: 20px;
   }
 
