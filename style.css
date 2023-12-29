@@ -5,7 +5,6 @@
 body {
   margin: 0px;
   padding: 0px;
-  padding-bottom: 300px;
 }
 
 header {
@@ -354,7 +353,6 @@ footer {
 
 .footer_menu {
   display: flex;
-  flex: 1;
 }
 
 .fm_1,
@@ -375,4 +373,30 @@ footer {
 
 .fm_3 {
   background-color: #2b4c99;
+}
+
+.footer_area {
+  display: flex;
+}
+
+.footer_areaitem {
+  flex: 1;
+  color: white;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+footer .wigted_title_text {
+  color: white;
+}
+
+.footer_copy {
+  border-top: 1px solid #2c2c2c;
+  height: 40px;
+  line-height: 40px;
+  color: #5c5c5c;
+  font-size: 14px;
+  margin-top: 30px;
 }
