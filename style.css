@@ -499,6 +499,15 @@ span {
   margin-top: 0;
 }
 
+.menuMobile {
+  display:none;
+  width:40px;
+  height:40px;
+  background-color:black;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /* media query - responsividade */
 /*CELULAR 
 /* Extra small devices (phones, 600px and down) 
@@ -507,7 +516,6 @@ span {
 @media (max-width:600px) {
 
   .logo {
-    padding-top: 20px;
     padding-left: 20px;
   }
 
@@ -533,8 +541,6 @@ span {
   .banner_options {
     height: auto;
     flex-direction: column;
-
-
   }
 
   .container {
@@ -545,12 +551,42 @@ span {
     padding: 20px;
     margin-top: 60px;
     margin-bottom: -60px;
-
   }
 
   #geral aside {
 
     padding: 20px;
+  }
+
+  .footer_menu {
+    flex-direction: column;
+  }
+
+  .footer_area {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .footer_copy {
+    padding-left: 20px;
+  }
+
+  header .container {
+    flex-direction: row;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: none;
+  }
+
+  header {
+    height: auto;
+
+  }
+
+  .menuMobile{
+    display: blok;
   }
 
 }
