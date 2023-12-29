@@ -405,6 +405,11 @@ footer {
   color: white;
 }
 
+.widget_body_contact_desc a{
+  text-decoration: none;
+  color:#36a9e1;
+}
+
 .flexColumn {
   flex-direction: column;
 }
@@ -575,6 +580,7 @@ span {
 
   .footer_copy {
     padding-left: 20px;
+    padding-bottom: 12px;
   }
 
   header .container {
