@@ -363,6 +363,16 @@ article .news_resume {
   font-weight: bold;
 }
 
+strong {
+  font-size: 13px;
+
+}
+
+strong a {
+  text-decoration: none;
+  color: white;
+}
+
 footer {
   background-color: #1e1e1e;
   display: flex;
@@ -405,9 +415,9 @@ footer {
   color: white;
 }
 
-.widget_body_contact_desc a{
+.widget_body_contact_desc a {
   text-decoration: none;
-  color:#36a9e1;
+  color: #36a9e1;
 }
 
 .flexColumn {
