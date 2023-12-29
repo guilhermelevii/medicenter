@@ -365,14 +365,17 @@ footer {
 
 .fm_1 {
   background-color: #36a9e1;
+  font-size: 20px;
 }
 
 .fm_2 {
   background-color: #0079c7;
+  font-size: 20px;
 }
 
 .fm_3 {
   background-color: #2b4c99;
+  font-size: 20px;
 }
 
 .footer_area {
@@ -399,4 +402,12 @@ footer .wigted_title_text {
   color: #5c5c5c;
   font-size: 14px;
   margin-top: 30px;
+}
+
+.footer_text_menu {
+  font-size: 13px;
+}
+
+.footer_menu a {
+  text-decoration: none;
 }
