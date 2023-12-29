@@ -1,7 +1,9 @@
 @charset "UTF-8";
+
 * {
   font-family: arial;
 }
+
 body {
   margin: 0px;
   padding: 0px;
@@ -44,12 +46,14 @@ nav a {
   display: block;
   padding: 15px;
   text-decoration: none;
-  text-transform: uppercase; /*deixa tudo maiusculo*/
+  text-transform: uppercase;
+  /*deixa tudo maiusculo*/
   color: #727272;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-nav .active a, /*A classe active é um nome comum para uma classe CSS que é frequentemente usada para destacar visualmente um elemento ativo em uma página da web.*/
+nav .active a,
+/*A classe active é um nome comum para uma classe CSS que é frequentemente usada para destacar visualmente um elemento ativo em uma página da web.*/
 nav a:hover {
   background-color: #39aae1;
   color: white;
@@ -110,9 +114,11 @@ nav a:hover {
 .banner1 {
   background-color: #39aae1;
 }
+
 .banner2 {
   background-color: #0079c7;
 }
+
 .banner3 {
   display: flex;
   background-color: #2b4c99;
@@ -142,6 +148,7 @@ nav a:hover {
   background-color: white;
   color: #2b4c99;
 }
+
 /* exercicio do curso - opening hours, 
 
 coloquei o banner 3 display flex, flex-direction:column,jusstify-content:center;
@@ -157,6 +164,7 @@ perfeito a execução do exercicio.
   flex-direction: column;
   justify-content: center;
 }
+
 .week-main {
   display: flex;
   justify-content: space-between;
@@ -165,14 +173,17 @@ perfeito a execução do exercicio.
   margin-bottom: 15px;
   border-bottom: 1px solid #aaa;
 }
+
 .week {
   font-size: 13px;
   font-weight: bold;
 }
+
 .week-hours {
   font-size: 13px;
   font-weight: bold;
 }
+
 .Saturday-main {
   display: flex;
   justify-content: space-between;
@@ -180,14 +191,17 @@ perfeito a execução do exercicio.
   margin-bottom: 15px;
   border-bottom: 1px solid #aaa;
 }
+
 .Saturday {
   font-size: 13px;
   font-weight: bold;
 }
+
 .Saturday-hours {
   font-size: 13px;
   font-weight: bold;
 }
+
 .sunday-main {
   display: flex;
   justify-content: space-between;
@@ -195,10 +209,12 @@ perfeito a execução do exercicio.
   margin-bottom: 15px;
   border-bottom: 1px solid #aaa;
 }
+
 .sunday {
   font-size: 13px;
   font-weight: bold;
 }
+
 .sunday-hours {
   font-size: 13px;
   font-weight: bold;
@@ -241,7 +257,8 @@ perfeito a execução do exercicio.
 }
 
 article {
-  flex: 1; /* fla para o pragama que vai ser tudo divido igual tudo no mesmo padrão. */
+  flex: 1;
+  /* fla para o pragama que vai ser tudo divido igual tudo no mesmo padrão. */
   min-width: 300px;
   margin-right: 20px;
 }
@@ -288,7 +305,8 @@ article .news_title {
 article .news_resume {
   font-size: 14px;
   color: #5c5c5c;
-  line-height: 20px; /*espaçamento entre as linhas dos texto*/
+  line-height: 20px;
+  /*espaçamento entre as linhas dos texto*/
   margin-bottom: 30px;
 }
 
@@ -412,25 +430,51 @@ footer .wigted_title_text {
   text-decoration: none;
 }
 
-.medicenter{
+.medicenter {
   margin-top: 30px;
 }
 
-.medicenter p{
+.medicenter p {
   color: #5c5c5c;
-    font-size: 14px;
-    margin-right: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    display: flex;
-    flex: 1;
+  font-size: 14px;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex: 1;
 }
 
-footer .b{
+footer .b {
   margin-top: 30px;
 }
-footer .c,.d,.e{
-  display: flex;  
-  justify-content: space-between;  
+
+footer .c,
+.d,
+.e {
+  display: flex;
+  justify-content: space-between;
 }
 
+.widget_body_records {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.widget_body_records a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.latest_posts p {
+  margin-right: 7px;
+  margin-top: 0;
+}
+
+span {
+  font-size: 11px;
+  color: #39aae1;
+}
